@@ -1,3 +1,34 @@
-.title {
-  color: #02cc1a;
+p1{
+  color: #9990ff;
+  font-size: 40px;
+  font-family:cursive;
+}
+
+p2{
+
+  font-size: 16px;
+  font-family:cursive;
+}
+
+
+.event{
+  color: blue;
+}
+
+.header{
+  background-color:#f7f2b4;
+  height:80px;
+  width: 450px;
+}
+
+.main{
+  background-color:#bdf7f1;
+  height:300px;
+  width: 450px;
+}
+
+.footer{
+  background-color:#ceccf3;
+  height:90px;
+  width: 450px;
 }
