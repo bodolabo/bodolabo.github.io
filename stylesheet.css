@@ -1,34 +1,244 @@
-p1{
-  color: #9990ff;
-  font-size: 40px;
-  font-family:cursive;
+body {
+  font-family: "Avenir Next";
 }
 
-p2{
-
-  font-size: 16px;
-  font-family:cursive;
-}
-
-
-.event{
-  color: blue;
+li {
+  list-style: none;
 }
 
 .header{
-  background-color:#f7f2b4;
-  height:80px;
-  width: 450px;
+  background-color:rgba(255, 255, 255,0.9) ;
+  height:100px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:10;
 }
 
-.main{
-  background-color:#bdf7f1;
-  height:300px;
-  width: 450px;
+.header-left{
+  float:left;
 }
 
-.footer{
-  background-color:#ceccf3;
-  height:90px;
-  width: 450px;
+.header-logo{
+  height:100px;
+}
+
+.header-logo img{
+  height:100%;
+  padding-left:6px;
+  margin-right:10px;
+}
+
+
+.header-right{
+  margin-left:50%;
+  margin-right:30px;
+}
+
+.right-contents{
+  height:100px;
+  margin-right:20px;
+  float:right;
+}
+
+.right-contents a{
+  display:block;
+  width:100px;
+  margin-top:0 ;
+  line-height: 100px;
+  text-align: center;
+  font-size:15px;
+  color:#222;
+  float:right;
+}
+
+.sub-title:hover{
+    background-color:rgba(255,200,0,0.8);
+    transition:all 0.7s;
+}
+
+.line-btn{
+  width:100%;
+  margin-left:10px;
+  float:right;
+
+}
+
+
+
+.line-btn img{
+  margin-top:33px;
+  width:100%;
+  opacity:0.7;
+}
+
+.line-btn img:hover{
+  opacity:1;
+  transition:all 0.7s;
+}
+
+.main-photo{
+  width:100%;
+  margin-top:103px;
+}
+
+.main-photo img{
+  width:100%;
+}
+
+.copy-container h1{
+ padding-top:100px;
+ padding-bottom:60px;
+  font-size:50px;
+  text-align: center;
+  opacity:0.6;
+}
+
+.copy-sentence{
+  text-align: center;
+  font-size:14px;
+  opacity:0.7;
+
+}
+
+.copy-sentence p{
+    padding-bottom:20px;
+    line-height: 28px;
+}
+
+.orange{
+  color:#ffa500;
+  font-weight: bold;
+}
+
+.blue{
+  color:blue;
+  font-weight: bold;
+}
+
+.red{
+  color:red;
+  font-weight: bold;
+}
+
+.green{
+  color:green;
+  font-weight: bold;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+
+.events {
+  height: 700px;
+  margin: 100px 80px 60px 80px;
+}
+
+
+.event-title {
+  border-bottom: 3px solid #f4a460;
+  font-size: 24px;
+  padding-bottom: 12px;
+  padding-left:25px;
+  margin-bottom: 50px;
+  opacity:0.8;
+}
+
+.event {
+  float:left;
+  width:33.3%;
+  text-align: center;
+}
+
+.event h5{
+  height:50px;
+  margin-bottom:10px;
+  font-size:18px;
+  opacity:0.7;
+  font-weight: bold;
+}
+
+.event img{
+margin:20px 20px 15px 20px;
+  width:80%;
+}
+
+.status-will {
+  margin:0 80px;
+ text-align: center;
+ background-color:#adff2f;
+}
+
+.status-end {
+  margin:0 80px;
+ text-align: center;
+ background-color:#ff7f50;
+}
+
+.time{
+ margin-top:20px;
+ font-size:18px;
+ opacity:0.8;
+}
+
+.time p{
+ font-weight: bold;
+}
+
+.time span{
+  font-size:16px;
+}
+
+.info{
+height:1900px;
+margin:30px 200px;
+text-align: center;
+opacity:0.8;
+border:4px solid gray;
+}
+
+.info h3{
+  font-size:35px;
+opacity:0.9;
+padding-top:20px;
+}
+
+.info h4{
+  padding-top:30px;
+  font-size:17px;
+}
+
+
+
+.supplement{
+  font-size:14px;
+}
+
+
+.guide-photos{
+  margin:15px 80px 30px 80px;
+}
+
+
+
+.guide-photos img{
+  margin-top:20px;
+  margin-bottom:60px;
+  width:80%;
+}
+
+.info span{
+  font-size:25px;
+}
+
+.discount{
+  width:700px;
+  margin:0 auto;
+}
+
+.discount img{
+  width:100%;
 }
